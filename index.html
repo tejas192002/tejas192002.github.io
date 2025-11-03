@@ -7,7 +7,6 @@
   <meta name="description" content="Tejas Patil — DevOps Engineer. CI/CD, Terraform, Kubernetes, Docker, AWS, Jenkins, Ansible." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2288%22>TP</text></svg>">
   <style>
-    /* ===== Reset & Base ===== */
     :root{
       --bg: #0f1724;
       --card: #0b1220;
@@ -56,14 +55,10 @@
       background:transparent;border:1px solid rgba(255,255,255,0.06);padding:9px 12px;border-radius:10px;color:var(--white);
       cursor:pointer;
     }
-
-    /* ===== Grid Columns ===== */
     .grid{
       display:grid;grid-template-columns: 320px 1fr;gap:20px;
     }
     @media (max-width:920px){ .grid{grid-template-columns:1fr} .avatar{width:64px;height:64px} }
-
-    /* ===== Sidebar Card ===== */
     .card{
       background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
       border-radius:var(--radius);padding:18px;box-shadow:0 8px 30px rgba(2,6,23,0.55);
@@ -73,8 +68,6 @@
     .muted{color:var(--muted);font-size:13px}
     .contact-list{display:flex;flex-direction:column;gap:8px;margin-top:8px}
     .chip{display:inline-block;background:var(--glass);padding:8px 10px;border-radius:999px;font-weight:600;color:var(--white);font-size:13px;border:1px solid rgba(255,255,255,0.02)}
-
-    /* ===== Skills badges ===== */
     .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
     .badge{
       padding:8px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:700;font-size:13px;color:var(--white);
@@ -93,7 +86,6 @@
     .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}
     @media (max-width:720px){ .grid-2{grid-template-columns:1fr} }
 
-    /* ===== Experience & Projects ===== */
     .item{background:var(--glass-2);padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
     .item h3{margin:0;font-size:16px}
     .meta{color:var(--muted);font-size:13px;margin-top:6px}
@@ -101,7 +93,6 @@
     .project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
     @media (max-width:920px){ .project-grid{grid-template-columns:1fr} }
 
-    /* ===== Project card ===== */
     .proj{
       padding:14px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));
     }
@@ -109,7 +100,6 @@
     .small{font-size:13px;color:var(--muted)}
     .proj .desc{margin-top:8px;color:var(--muted);font-size:14px}
 
-    /* ===== Footer / contact form ===== */
     .contact-card{display:flex;flex-direction:column;gap:8px}
     input[type="text"], input[type="email"], textarea{
       background:transparent;border:1px solid rgba(255,255,255,0.04);padding:10px;border-radius:8px;color:var(--white);outline:none;
@@ -118,7 +108,6 @@
     .row{display:flex;gap:8px}
     @media (max-width:680px){ .row{flex-direction:column} }
 
-    /* ===== small helpers ===== */
     a { color: inherit; text-decoration: none; }
     .muted-2{color:#9fb5c4;}
     .pill{display:inline-flex;gap:8px;align-items:center;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.02)}
@@ -133,7 +122,7 @@
         <div class="avatar">TP</div>
         <div>
           <div class="title">Tejas S. Patil</div>
-          <div class="subtitle">DevOps Engineer — CI/CD • Terraform • Kubernetes • AWS</div>
+          <div class="subtitle">DevOps Engineer — CI/CD • Terraform • Kubernetes • AWS • Azure • GCP • Docker</div>
         </div>
       </div>
 
@@ -145,7 +134,7 @@
     </div>
 
     <div class="grid">
-      <!-- Sidebar -->
+
       <aside class="card">
         <div>
           <div class="section-title">Contact</div>
@@ -186,23 +175,19 @@
 
         <div>
           <div class="section-title">Languages</div>
-          <div class="muted">English • Marathi • Hindi</div>
+          <div class="muted">English • Marathi • Hindi • Panjabli • Gujrathi</div>
         </div>
       </aside>
-
-      <!-- Main -->
       <main>
         <div class="hero item">
-          <h1>DevOps Engineer with ~2 years experience</h1>
+          <h1>DevOps Engineer with 2+ years experience</h1>
           <p class="muted">I build automated, reliable CI/CD pipelines and scalable infrastructure using Terraform, Docker, Kubernetes and AWS. I enjoy automating operational tasks, improving reliability, and collaborating with developers to ship software faster.</p>
 
           <div style="margin-top:12px;display:flex;gap:12px;flex-wrap:wrap">
             <div class="pill"><strong>Current:</strong>&nbsp; Learnasyougo Pvt Ltd — DevOps Engineer</div>
-            <div class="pill small">Open to freelance & remote opportunities</div>
+            <div class="pill small">Availability: Open for Remote, Full Time & Freelance Opportunities</div>
           </div>
         </div>
-
-        <!-- Experience -->
         <div style="margin-top:16px" class="item">
           <div style="display:flex;justify-content:space-between;align-items:center">
             <div>
@@ -235,8 +220,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Projects -->
         <div style="margin-top:16px" class="item">
           <div style="display:flex;justify-content:space-between;align-items:center">
             <div>
@@ -247,7 +230,6 @@
           </div>
 
           <div style="margin-top:12px" class="project-grid">
-            <!-- Spira -->
             <div class="proj">
               <div style="display:flex;justify-content:space-between;align-items:center">
                 <strong>Spira — Cloud-Based App Deployment</strong>
@@ -262,10 +244,9 @@
               </div>
             </div>
 
-            <!-- Gene -->
             <div class="proj">
               <div style="display:flex;justify-content:space-between;align-items:center">
-                <strong>Gene — Scalable Microservices</strong>
+                <strong>Generative AI — Scalable Microservices</strong>
                 <span class="small muted">Terraform • Kubeadm • AWS</span>
               </div>
               <div class="desc">Created IaC using Terraform for repeatable deployments, automated cluster setup with Kubeadm and Helm, integrated EC2/RDS/S3 for compute and storage, and enforced security best-practices (IAM + security groups).</div>
@@ -276,8 +257,6 @@
                 <div class="badge">Helm</div>
               </div>
             </div>
-
-            <!-- Vista AI -->
             <div class="proj">
               <div style="display:flex;justify-content:space-between;align-items:center">
                 <strong>Vista AI — AI/ML Model Deployment</strong>
@@ -308,8 +287,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Extras & Contact -->
         <div style="margin-top:16px" class="item contact-card">
           <div style="display:flex;justify-content:space-between;align-items:center">
             <div>
@@ -317,12 +294,12 @@
               <div class="muted">Link your GitHub repos, CI configs, and IaC repos here.</div>
             </div>
             <div style="text-align:right">
-              <div class="small muted">Availability: Open for freelance & remote</div>
+              <div class="small muted">Availability: Open for Remote, Full Time & Freelance Opportunities </div>
             </div>
           </div>
 
           <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
-            <a class="btn" href="https://github.com/tejaspatil" target="_blank" rel="noopener">View GitHub</a>
+            <a class="btn" href="https://github.com/tejas192002" target="_blank" rel="noopener">View GitHub</a>
             <a class="btn-ghost" href="mailto:patil.tejas@outlook.in">Email Me</a>
             <a class="btn-ghost" href="https://linkedin.com/in/tejas-patil-515115310" target="_blank" rel="noopener">LinkedIn</a>
           </div>
@@ -330,30 +307,25 @@
           <div style="margin-top:12px;color:var(--muted);font-size:13px">
             Quick tips:
             <ul style="margin:8px 0 0 18px;color:var(--muted)">
-              <li>Add links to project repos for each project (IaC, Jenkinsfile, Dockerfile).</li>
-              <li>Include screenshots or short GIFs of dashboards (Grafana / Prometheus) in project README.</li>
-              <li>Use GitHub Actions to auto-deploy this site from the main branch.</li>
+              <li>https://github.com/tejas192002 (IaC, Jenkinsfile, Dockerfile).</li>
             </ul>
           </div>
         </div>
 
         <footer>
-          © <span id="year"></span> Tejas S. Patil — DevOps Engineer • Built with ❤️ • <span class="muted">Fully free to host on GitHub Pages</span>
+          © <span id="year"></span> Tejas S. Patil — DevOps Engineer • Built with ❤️ • <span class="muted">patil.tejas@outlook.in</span>
         </footer>
       </main>
     </div>
   </div>
 
   <script>
-    // Simple interactivity
     const yearEl = document.getElementById('year');
     yearEl.textContent = new Date().getFullYear();
 
     const downloadResume = document.getElementById('downloadResume');
-    // The filename below should match your repo file name. Update if you change it.
     const resumeFile = 'Tejas S. Patil Resume.pdf';
     downloadResume.addEventListener('click', () => {
-      // Try to download — if hosted, this will download; if local, open file
       const a = document.createElement('a');
       a.href = resumeFile;
       a.download = resumeFile;
@@ -362,7 +334,6 @@
       a.remove();
     });
 
-    // Copy email
     const copyEmailBtn = document.getElementById('copyEmail');
     copyEmailBtn.addEventListener('click', async () => {
       try {
@@ -370,17 +341,17 @@
         copyEmailBtn.textContent = 'Copied ✓';
         setTimeout(() => copyEmailBtn.textContent = 'patil.tejas@outlook.in', 1800);
       } catch (e) {
-        // fallback: open mailto
+       
         window.location.href = 'mailto:patil.tejas@outlook.in';
       }
     });
 
-    // Theme toggle (light/dark)
+
     const toggleTheme = document.getElementById('toggleTheme');
     toggleTheme.addEventListener('click', () => {
       const root = document.documentElement;
       if (root.style.getPropertyValue('--bg') === '#0f1724' || !root.style.getPropertyValue('--bg')) {
-        // Light-ish theme
+   
         root.style.setProperty('--bg','#f6f9fb');
         root.style.setProperty('--card','#ffffff');
         root.style.setProperty('--muted','#334155');
@@ -390,7 +361,7 @@
         root.style.setProperty('--white','#071225');
         document.body.style.background = 'linear-gradient(180deg,#f8fafc 0%, #eef2f6 100%)';
       } else {
-        // Revert to dark
+    
         root.style.setProperty('--bg','#0f1724');
         root.style.setProperty('--card','#0b1220');
         root.style.setProperty('--muted','#94a3b8');
